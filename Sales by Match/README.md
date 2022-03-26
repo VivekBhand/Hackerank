@@ -6,6 +6,7 @@ Example
 n=7
 
 arr=[1,2,1,2,1,3,2]
+30
 `
 
 There is one pair of color  and one of color . There are three odd socks left, one of each color. The number of pairs is 2.
@@ -27,13 +28,13 @@ The first line contains an integer , the number of socks represented in .
 The second line contains  space-separated integers, , the colors of the socks in the pile.
 
 `
-STDIN                       Function
+9
 
------                       --------
+n = 9
 
-9                           n = 9
+10 20 20 10 10 30 50 10 20  
 
-10 20 20 10 10 30 50 10 20  ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
 
 `
 
