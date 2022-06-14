@@ -1,3 +1,6 @@
+* [Python](#python)
+* [JAVA](#java)
+
 ## Python
 
 ```python
