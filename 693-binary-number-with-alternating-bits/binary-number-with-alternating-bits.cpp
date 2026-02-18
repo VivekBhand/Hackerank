@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool hasAlternatingBits(int n) {
-        int flag = true;
         int firstBit = n % 2;
         n /= 2;
         while (n) {
@@ -13,8 +12,5 @@ public:
             n /= 2;
         }
         return true;
-
-
-        return flag;
     }
 };
