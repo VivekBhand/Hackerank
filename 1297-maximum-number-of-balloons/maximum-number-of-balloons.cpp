@@ -4,17 +4,17 @@ public:
 
 
         int n = 0;
-        vector<int> v(26, 0);
+        unordered_map<char, int>v;
 
         for (auto c : text) {
-            v[c - 'a']++;
+            v[c]++;
         }
-        n = v['b' - 'a'];
+        n = v['b'];
 
-        n = min(n, v['a' - 'a']);
-        n = min(n, v['l' - 'a']/2);
-        n = min(n, v['o' - 'a']/2);
-        n = min(n, v['n' - 'a']);
+        n = min(n, v['a']);
+        n = min(n, v['l']/2);
+        n = min(n, v['o']/2);
+        n = min(n, v['n']);
 
         return n;
     }
